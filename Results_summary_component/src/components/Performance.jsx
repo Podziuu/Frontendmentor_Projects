@@ -3,10 +3,10 @@ import React from "react";
 const Performance = ({ data }) => {
   //   console.log(textColor);
   const colorVatiants = {
-    red: "bg-[#FF5757]/10 [&_h4]:text-[#FF5757]",
-    yellow: "bg-[#FFB01F]/10 [&_h4]:text-[#FFB01F]",
-    green: "bg-[#00BD91]/10 [&_h4]:text-[#00BD91]",
-    blue: "bg-[#1125D4]/10 [&_h4]:text-[#1125D4]",
+    red: "bg-[#FF5757]/10 [&_h4]:text-[#FF5757] hover:drop-shadow-red transition",
+    yellow: "bg-[#FFB01F]/10 [&_h4]:text-[#FFB01F] hover:drop-shadow-yellow transition",
+    green: "bg-[#00BD91]/10 [&_h4]:text-[#00BD91] hover:drop-shadow-green transition",
+    blue: "bg-[#1125D4]/10 [&_h4]:text-[#1125D4] hover:drop-shadow-blue transition",
   };
   return (
     <li
